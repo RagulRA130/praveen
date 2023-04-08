@@ -8,13 +8,17 @@ public class Testing {
 		
 		String name = s.nextLine();
 		System.out.println("Employee name is:"+name);
-		int empId = s.nextInt();;
+		int empId = s.nextInt();
 		System.out.println("Employee id is:"+empId);
+		boolean status = s.nextBoolean();
+		System.out.println("employee status is :"+status);
 	
 		long phone = s.nextLong();
 		System.out.println("Employee phone is:"+phone);
 		String name2 = s.next();
 		System.out.println("Employee name is:"+name2);
+		
+		
 	}
 
 }
